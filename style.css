@@ -127,6 +127,8 @@ section h2 {
 
 .sobre {
   margin-bottom: 15px;
+  text-align: center;
+  
 }
 
 .menu {
@@ -273,6 +275,27 @@ html {
   transform: translateY(-5px) scale(1.05);
 }
 
+.assinatura {
+  text-align: center;
+  margin: 8px auto 0;
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.assinatura p {
+  margin: 0;
+}
+
+.assinatura p:first-child {
+  margin-bottom: 2px;
+  color: #000;
+}
+
+.assinatura p:last-child {
+  color: var(--primary);
+}
+
 .about {
   display: flex;
   align-items: center;
@@ -320,9 +343,13 @@ html {
   display: flex;
   align-items: center;
   gap: 8px;
-
   font-size: 0.95rem;
   color: #555;
+}
+
+.rede-social a {
+  text-decoration: none;
+  color: inherit;
 }
 
 /* Ícone */
